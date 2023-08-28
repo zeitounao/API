@@ -11,8 +11,8 @@ app.get("/", (req, res) => {
     })
 });
 
-app.listen(3000, () => {
-    console.log("servidor rodando na porta 3000");
+app.listen(4999, () => {
+    console.log("servidor rodando na porta 4999");
 });
 
 app.get("/file", (req, res) => {
